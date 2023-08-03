@@ -1,0 +1,780 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.inic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4d5c67;
+}
+#parrClaro{
+    color: #9a9b9c;
+}
+#btnHeader{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#btnHeader button{
+    width: 350px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: #3c92d0;
+    color: #fefefe;
+}
+button:hover {
+    background-color: #83c4f8;
+    box-shadow: 0px 15px 20px rgba(60, 79, 246, 0.3);
+    transform: translateY(-7px);
+}
+#btnHeader p{
+    text-align: center;
+    margin-top: 15px;
+}
+#btnHeader a{
+    border-bottom: solid #ecedee;
+    text-decoration: none;
+    color: #ecedee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btnHeader a img{
+    margin-right: 10px;
+}
+#btnHeader a span{
+    font-size: 15px;
+    width: 150px;
+}
+.navIcons{
+    background-color: #ececec;
+    height: 70px;
+}
+.navIcons nav ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#tituloH{
+    margin: 5px 0 0 150px;
+} 
+#tituloH img{
+    width: 220px;
+}
+#navInic ul{
+    display: flex;
+    margin: 0 90px;
+}
+#navInicul li{
+    list-style: none;
+}
+#navInic ul li a{
+    color: white;
+    margin: 0 40px;
+    list-style: none;
+    text-decoration: none;
+}
+.navIcons nav ul li {
+    margin-top: 20px;
+}
+.navIcons nav ul li a img{
+    height:36px;
+}
+.centro{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#centralInt{
+    text-align:center;
+    font-size:10pt;
+}
+#centralInt h3{
+    font-size: 18px;
+    color: #4f5d68;
+    margin-bottom: 10px;
+}
+#centralInt p{
+    font-size: 12px;
+    width: 75%;
+    margin-left: 55px;
+    color: #adadac;
+    margin-bottom: 30px;
+}
+#btnCentral button{
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    background-color: #3c92d0;
+    color: #ecf2f8;
+}
+#imageCentral img{
+    width: 100px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+#navInic ul li a:hover {
+    background-color: #323a41;
+    transition: background-color 0.4s ease, color 0.3s ease;
+    border-radius: 30%;
+    padding: 10px;
+}
+#secInic{
+    background-color: #4d5c67;
+    display: flex;
+}
+#imgTelefono img{
+    margin: 30px 0 0 140px;
+    width: 400px;
+    height: auto;
+}
+#contWeb{
+    font-size: 20px;
+    color: #cbcccd;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tituloH2{
+    color: white;
+    font-size: 57px;
+    margin-bottom: 15px;
+}
+#contWeb p{
+    margin-bottom: 15px;
+    width: 75%;
+}
+.secundario{
+    width: 100%;
+    margin-top: 50px;
+}
+#tituloSecun{
+    display: flex;
+    align-items: center;
+    color: #6e7a83;
+    margin-bottom: 5px;
+    margin-left: 70px;
+}
+#tituloSecun img{
+    width: 20px;
+    margin-right: 8px;
+}
+#secInt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#imagesSec img{
+    width: 230px;
+    height: 170px;
+    border: solid 5px #fff;
+    box-shadow: 1px 1px 7px #000;
+    border-radius: 5px;
+}
+.terciario{
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+#terciarioIzquierda{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+#tituloTerIz{
+    margin: 15px 0 20px 105px;
+    font-size: 15px;
+}
+#tituloTerIz img{
+    width: 15px;
+    margin-right: 10px;
+}
+#tituloTerIz span{
+    color: #5e6b75;
+}
+#terciarioInt{
+    margin-left: 105px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#company img{
+
+    width: 140px;
+    height: 100px;
+    border: solid 5px #fff;
+    box-shadow: 1px 1px 7px #000;
+    border-radius: 5px;
+}
+#terciarioInt h3{
+    font-size: 12px;
+}
+#terciarioInt p{
+    font-size: 12px;
+}
+#terciarioInt span{
+    font-size: 10px;
+}
+#contInt{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+#contInt h3{
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #848484d4;
+}
+#contInt p{
+    width: 85%;
+    color: #8d8d8dbf;
+}
+#contInt span{
+    color: #8d8d8dbf;
+}
+#contInt p a{
+    font-size: 12px;
+    margin-left: -1px;
+}
+#steveJobs img{
+    width: 140px;
+    height: 100px;
+    border: solid 5px #fff;
+    box-shadow: 1px 1px 7px #000;
+    border-radius: 5px;
+}
+#terciarioIzquierda a{
+    color: #529ed5;
+    text-decoration: none;
+    margin-left: 105px;
+    font-size: 13px;
+}
+#terciarioDerecha{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+#tituloTerDer{
+    margin: 15px 0 20px 50px;
+    font-size: 15px;
+}
+#tituloTerDer img{
+    width: 22px;
+    margin-right: 10px;
+}
+#tituloTerDer{
+    color: #5e6b75;
+}
+#terciarioInt2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+#terciarioInt2 p{
+    line-height: 25px;
+    font-size: 12px;
+    width: 85%;
+    color: #8d8d8dbf;
+}
+#terciarioInt2 p b{
+    color: #848484d4;
+}
+#terciarioInt2 p a{
+    text-decoration: none;
+    color: #529ed5;
+    margin-left: -1px;
+}
+#terciarioInt2 span{
+    font-size: 10px;
+    margin-bottom: 30px;
+    color: #8d8d8dbf;
+}
+#terciarioDerecha div{
+    margin-top: -15px;
+}
+#terciarioDerecha a{
+    color: #529ed5;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 12.5px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #ebebeb;
+    height: 80px;
+    width: 80%;
+    margin-left: 100px;
+}
+footer p{
+    color: #949494;
+    margin-right: 500px;
+    font-size: 12px;
+}
+@media screen and (min-width:481px) and (max-width:767px){
+    #secInic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #imgTelefono img{
+        margin: 30px 0 30px 0;
+        width: 200px;
+        height: auto;
+    }
+    #contWeb{
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #tituloH2{
+        font-size: 35px;
+    }
+    #contWeb p{
+        width: 70%;    
+        font-size: 12px;
+    }
+    #btnHeader{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        border-bottom: solid #ececec;
+    }
+    .inic{
+        display: flex;
+        flex-direction: column;
+    }
+    #tituloH img{
+        width: 130px;
+        margin-right: 140px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #navInic{
+        text-align: center;
+    }
+    #centralInt p{
+        margin: 5px 0 20px 0;
+        width: 70%;
+    }
+    #secInt{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #tituloSecun{
+        margin-left: 30px;
+    }
+    #tituloTerIz{
+        margin: 15px 0 20px 15px;
+        font-size: 15px;
+    }
+    #terciarioInt{
+        margin-left: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #terciarioInt h3{
+        font-size: 10px;
+    }
+    #terciarioInt p{
+        font-size: 10px;
+    }
+    #terciarioInt p a{
+        font-size: 10px;
+    }
+    #terciarioInt span{
+        font-size: 9px;
+    }
+    #terciarioIzquierda a{
+        color: #529ed5;
+        text-decoration: none;
+        margin-left: 50px;
+        font-size: 11px;
+    }
+    #navInic ul{
+        margin: 0 30px;
+    }
+    #navInic ul li a{
+        margin: 0 20px;
+    }
+    #btnHeader button{
+        width: 90%;
+        height: 35px;
+    }
+    #btnHeader a{
+        margin-left: 20px;
+        text-align: center;
+        border-bottom: none;
+    }
+    #btnHeader a img{
+        height: 13px;
+        margin-right: -5px;
+    }
+    #btnHeader a span{
+        font-size: 14px;
+    }
+    .centro{
+        display: flex;
+        flex-direction: column;
+    }
+    #centralInt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+   
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-top: 2px solid #ebebeb;
+        height: 80px;
+        width: 60%;
+        margin-left: 100px;
+    }
+    footer p{
+        color: #949494;
+        margin-right: 50px;
+        font-size: 10px;
+    }
+    #imagesFooter img{
+        width: 20px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1279px){
+    .inic{
+        display: flex;
+        flex-direction: column;
+    }
+    #tituloH img{
+        width: 160px;
+        margin-right: 140px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #secInic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #navInic{
+        margin-bottom: 10px;
+    }
+    #imgTelefono img{
+        margin: 30px 0 30px 0;
+        width: 350px;
+        height: auto;
+    }
+    #contWeb{
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #tituloH2{
+        font-size: 45px;
+    }
+    #contWeb p{
+        text-align: center;
+        width: 55%;    
+        font-size: 15px;
+    }
+    #btnHeader{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        border-bottom: solid #ececec;
+    }
+    #btnHeader button{
+        width: 90%;
+        height: 35px;
+    }
+    #btnHeader a{
+        margin-left: 20px;
+        text-align: center;
+        border-bottom: none;
+    }
+    #btnHeader a img{
+        height: 13px;
+        margin-right: -5px;
+    }
+    #btnHeader a span{
+        font-size: 14px;
+    }
+    #imagesSec img{
+        width: 150px;
+        height: 130px;
+    }
+    #tituloTerIz{
+        margin: 15px 0 20px 162px;
+        font-size: 15px;
+    }
+    #terciarioIzquierda a{
+        color: #529ed5;
+        text-decoration: none;
+        margin-left: 37%;
+        font-size: 12px;
+    }
+    #terciarioInt{
+        margin-left: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #terciarioInt h3{
+        font-size: 10px;
+        margin-left: 29%;
+    }
+    #terciarioInt p{
+        font-size: 10px;
+        width: 50%;
+        margin-left: 29%;
+    }
+    #terciarioInt p a{
+        font-size: 10px;
+    }
+    #terciarioInt span{
+        font-size: 9px;
+        margin-left: 29%;
+    }
+    #company img{
+        width: 123px;
+    }
+    #steveJobs img{
+        width: 123px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid #ebebeb;
+        height: 80px;
+        width: 80%;
+        margin-left: 100px;
+    }
+    footer p{
+        color: #949494;
+        margin-right: 50px;
+        font-size: 10px;
+    }
+    #imagesFooter img{
+        width: 20px;
+    }
+}
+@media screen and (min-width:352px) and (max-width:480px){
+   
+    #navInicio ul li a{
+        margin: 0 20px;
+    }
+    .navIcons nav ul li a img{
+        width: 40px;
+        height: auto;
+    }
+    #secInic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #imgTelefono img{
+        margin: 30px 0 30px 0;
+        width: 200px;
+        height: auto;
+    }
+    #contWeb{
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #tituloH2{
+        font-size: 25px;
+    }
+    #contWeb p{
+        width: 65%;    
+        font-size: 11px;
+    }
+    .inic{
+        display: flex;
+        flex-direction: column;
+    }
+    #tituloH img{
+        width:100px;
+        margin-right: 140px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #navInic{
+        text-align: center;
+        font-size: 15px;
+    }
+    #navInic ul{
+        margin: 0 30px;
+    }
+    #btnHeader{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        border-bottom: solid #ececec;
+    }
+    #btnHeader button{
+        width: 90%;
+        height: 35px;
+    }
+    #btnHeader a{
+        margin-left: 20px;
+        text-align: center;
+        border-bottom: none;
+    }
+    #btnHeader a img{
+        height: 13px;
+        margin-right: -5px;
+    }
+    #btnHeader a span{
+        font-size: 14px;
+    }
+    .centro{
+        display: flex;
+        flex-direction: column;
+    }
+    #centralInt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    #imageCentral img{
+        width: 100px;
+        height: 100px;
+    }
+    #centralInt p{
+        margin: 5px 0 20px 0;
+        width: 70%;
+    }
+    #secInt{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #imagesSec img{
+        width: 180px;
+        height: 150px;
+    }
+    #tituloSecun{
+        margin-left: 30px;
+    }
+    
+    #terciarioInt h3{
+        font-size: 10px;
+    }
+    #terciarioInt p{
+        font-size: 10px;
+    }
+    #terciarioInt p a{
+        font-size: 10px;
+    }
+    #terciarioInt span{
+        font-size: 9px;
+    }
+    #company img{
+        width: 123px;
+    }
+    #steveJobs img{
+        width: 123px;
+    }
+    #tituloTerDer{
+        font-size: 13px;
+        margin: 15px 0 20px 35px;
+    }
+    #tituloTerDer img{
+        width: 20px;
+    }
+    #terciarioInt2{
+        margin-right: 50px;
+    }
+    #terciarioInt2 p{
+        font-size: 10px;
+    }
+    #tituloTerIz{
+        margin: 15px 0 20px 50px;
+        font-size: 15px;
+    }
+    #terciarioIzquierda a{
+        color: #529ed5;
+        text-decoration: none;
+        margin-left: 50px;
+        font-size: 13px;
+    }
+    #terciarioInt{
+        margin-left: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #terciarioInt2 p a{
+        font-size: 10px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-top: 2px solid #ebebeb;
+        height: 80px;
+        width: 70%;
+        margin-left: 70px;
+    }
+    footer p{
+        color: #949494;
+        margin-right: 50px;
+        font-size: 8px;
+    }
+    #imagesFooter img{
+        width: 15px;
+    }
+}
